@@ -16,8 +16,6 @@ export default function createServer(): Express {
 
   app.use(express.json());
 
-  // app.use(cookieParser());
-
   app.use(deserializerUser);
 
   routes(app);
