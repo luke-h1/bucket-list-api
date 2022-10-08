@@ -1,0 +1,31 @@
+version: '3'
+services:
+  db:
+    container_name: db
+    image: 'postgres:latest'
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: root
+    volumes: 
+      - .dbdata:/var/lib/postgres 
+    expose:
+      - 5432
+
+  db-test:
+    container_name: test-db
+    image: 'postgres:latest'
+    restart: always
+    ports:
+      - 5433:5432
+    environment:
+      POSTGRES_USER: test
+      POSTGRES_PASSWORD: test
+      POSTGRES_DB: test
+    volumes: 
+      - .dbdata:/var/lib/postgres 
+    expose:
+      - 5433

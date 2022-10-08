@@ -1,0 +1,19 @@
+node_modules
+.vercel
+.dbdata
+tmp
+dist
+src/api/.env
+src/api/data/images/
+.env
+.DS_Store
+.data
+src/api/.env.production
+node_modules
+# Keep environment variables out of version control
+.env
+src/server/build
+.dbdata
+build
+.xml
+robots.txt
