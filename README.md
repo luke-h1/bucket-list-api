@@ -12,7 +12,7 @@
 ## concepts covered
 * Rest API principals
     * CRUD 
-    * HTTP VERBS/methods 
+    * HTTP verbs/methods 
 * JWT & refresh tokens
 * Request validation
 * logging

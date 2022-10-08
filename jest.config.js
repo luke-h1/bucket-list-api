@@ -9,5 +9,5 @@ module.exports = {
   clearMocks: true, // clear calls of a mock
   resetMocks: true, // resets mocks between tests
   restoreMocks: true, // reset modules back to their orgiinal state between tests
-  setupFilesAfterEnv: ['<rootDir>/test/setupTests.js'],
+  setupFilesAfterEnv: ['<rootDir>/src/test/setupTests.js'],
 };
