@@ -26,7 +26,7 @@ import { createSessionSchema } from '../schemas/session.schema';
 import { createUserSchema } from '../schemas/user.schema';
 
 export default function routes(app: Express) {
-  app.get('/healthcheck', (_req: Request, res: Response) => {
+  app.get('/api/health', (_req: Request, res: Response) => {
     res.sendStatus(200);
   });
 
