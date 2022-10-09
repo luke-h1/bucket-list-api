@@ -1,6 +1,6 @@
 # Restful API to store bucket list ideas
 
-## Technologies
+## Tech stack
 *  Node.js
 * Typescript
 * Prisma with PostgreSQL 
