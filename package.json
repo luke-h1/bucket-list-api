@@ -42,7 +42,7 @@
     "pino-pretty": "^9.1.0",
     "prisma": "^4.1.0",
     "response-time": "^2.3.2",
-    "swagger-jsdoc": "^6.1.0",
+    "swagger-jsdoc": "^6.2.8",
     "swagger-ui-express": "^4.1.6",
     "tsconfig-paths": "^4.0.0",
     "zod": "^3.19.1"
