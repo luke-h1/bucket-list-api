@@ -40,7 +40,7 @@
     "nodemon": "2.0.20",
     "pino": "^8.6.1",
     "pino-pretty": "^9.1.0",
-    "prisma": "^4.1.0",
+    "prisma": "^4.10.1",
     "response-time": "^2.3.2",
     "swagger-jsdoc": "^6.1.0",
     "swagger-ui-express": "^4.1.6",
